@@ -18,6 +18,10 @@ Activate the Virtual Environment
 to install required python packages
 ### pip install -r requirements.txt
 
+to run flask app -- which will expose rest api
+### clone the project in your local machine
+### python app.py
+
 to test the rest api run following
 ### python test_api.py
 
