@@ -10,6 +10,8 @@ def paisa_to_ruppes(amount):
 def check_transfer_validty(to_id, from_id):
     if to_id == from_id:
         return False
+    else :
+        return True
 
 
 class AccountManager:
