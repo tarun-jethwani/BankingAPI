@@ -66,31 +66,3 @@ class AccountManager:
             self.__update_accounts(records)
             return self.get_success_message(from_id, to_id, records, account_type)
 
-# ac = AccountManager()
-#
-# print("Before Transaciton")
-#
-# from_id = '2'
-# to_id = '1'
-# transfer_amount = paisa_to_ruppes(2000)
-#
-# print(ac.transfer_amount(from_id, to_id, transfer_amount))
-
-# with open('accounts.json') as accounts_db:
-#     records = json.load(accounts_db)
-#     print(records['accounts'])
-#     accounts_db.close()
-#
-# with open('accounts.json', 'w') as accounts_db:
-#     transfer_amount = 20
-#     records['accounts'][0]['1']['Savings'] = str(float(records['accounts'][0]['1']['Savings']) + 20)
-#     records['accounts'][0]['2']['Savings'] = str(float(records['accounts'][0]['2']['Savings']) - 20)
-#     json.dump(records, accounts_db)
-#     accounts_db.close()
-#
-# print("After Transaction")
-#
-# with open('accounts.json') as accounts_db:
-#     records = json.load(accounts_db)
-#     print(records['accounts'])
-#     accounts_db.close()
