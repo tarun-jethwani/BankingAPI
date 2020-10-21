@@ -1,0 +1,18 @@
+{
+  "accounts" : [
+    {
+      '1' : {
+        "user" : "KL Rahul",
+        "Savings" : "100",
+        "Current" : "120",
+        "BasicSavings" : "50",
+      },
+      '2' : {
+        "user" : "Virat Kohli",
+        "Savings" : "140",
+        "Current" : "120",
+        "BasicSavings" : "70",
+      }
+    }
+  ]
+}
