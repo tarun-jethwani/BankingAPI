@@ -1,6 +1,6 @@
 import requests
 
-fromAccountId = 2
+fromAccountId = 1
 toAccountId = 1
 transfer_amount = 3000
 account_type = 'BasicSavings' # optional
